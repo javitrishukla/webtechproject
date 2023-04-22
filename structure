@@ -1,0 +1,15 @@
+index.html
+├── css/
+│   ├── style.css
+│   └── normalize.css
+├── js/
+│   ├── app.js
+│   └── storage.js
+└── assets/
+    ├── images/
+    │   ├── logo.png
+    │   └── background.jpg
+    └── icons/
+        ├── add.svg
+        ├── delete.svg
+        └── edit.svg
