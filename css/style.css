@@ -1,4 +1,87 @@
-body{
-    background-color: aqua;
-    ;
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Todo list container */
+
+.todo-list {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+
+/* Todo list header */
+
+.todo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.todo-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.todo-header button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Todo item styles */
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.todo-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todo-item label {
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+.todo-item button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Completed todo item styles */
+
+.todo-item.completed {
+  background-color: #e0e0e0;
+}
+
+.todo-item.completed label {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.todo-item.completed button {
+  background-color: #ccc;
+  cursor: default;
 }
